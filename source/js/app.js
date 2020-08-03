@@ -7,18 +7,18 @@ function initialLanguageCheck() {
   //If the cookie is not saved it'll save a new cookie and update the language attribute
   var language = getCookie('langCookie');
 
-  if(language === 'en') {
+  //if(language === 'en') {
     createCookie('langCookie', 'en', 100);
     document.documentElement.setAttribute('lang', "en");
     document.documentElement.setAttribute('dir', "ltr");
     replaceText(1);
-  } else {
-    createCookie('langCookie', 'ar', 100);
-    document.documentElement.setAttribute('lang', "ar");
-    document.documentElement.setAttribute('dir', "rtl");
-
-    replaceText(2);
-  }
+  // } else {
+  //   createCookie('langCookie', 'ar', 100);
+  //   document.documentElement.setAttribute('lang', "ar");
+  //   document.documentElement.setAttribute('dir', "rtl");
+  //
+  //   replaceText(2);
+  // }
 }
 function setLoading(visible) {
   if(visible) {
@@ -148,16 +148,38 @@ function hideNav(){
 function revealBoxes() {
   window.sr = ScrollReveal();
 
-  sr.reveal('#header img.phone');
-
-  sr.reveal('#features', {
+  sr.reveal('#card1', {
     delay: 200,
     duration: 200,
     origin: 'bottom',
     distance: '100px'
   });
 
-  sr.reveal('#partner', {
+  sr.reveal('#card2', {
+    delay: 200,
+    duration: 200,
+    origin: 'bottom',
+    distance: '100px'
+  });
+  sr.reveal('#card3', {
+    delay: 200,
+    duration: 200,
+    origin: 'bottom',
+    distance: '100px'
+  });
+  sr.reveal('#card4', {
+    delay: 200,
+    duration: 200,
+    origin: 'bottom',
+    distance: '100px'
+  });
+  sr.reveal('#card5', {
+    delay: 200,
+    duration: 200,
+    origin: 'bottom',
+    distance: '100px'
+  });
+  sr.reveal('#card6', {
     delay: 200,
     duration: 200,
     origin: 'bottom',

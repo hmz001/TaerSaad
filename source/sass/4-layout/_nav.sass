@@ -8,6 +8,7 @@ nav
   position: relative
 
   .nav-container
+    height: 100%
     display: flex
     flex-direction: row
     justify-content: flex-end
@@ -23,7 +24,7 @@ nav
     align-items: center
     margin-top: 0
 
-  
+
 
     @media only screen and (min-width: 1100px)
       margin-right: 0
@@ -71,6 +72,21 @@ nav
 
 
 
+
+  .nav-projects
+    background-color: #fff
+    list-style: none
+    display: flex
+    flex-direction: column
+    position: absolute
+
+    &.fold
+      display: none
+      background-color: red
+    &:hover
+      background-color: blue
+    li a
+      color: #fff
 
 
   @media only screen and (max-width: 700px)
