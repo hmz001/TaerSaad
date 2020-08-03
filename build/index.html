@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hamzeh App</title>
+    <title>Taer Al Saad</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="Hamzeh" content="&nbsp;"/>
     <link rel="stylesheet" href="assets/css/main.min.css" />
-    <link rel="shortcut icon" href="./assets/img/logo1.png" />
+    <link rel="shortcut icon" href="./assets/img/logo2.png" />
     <script src="./assets/js/vendors.js"></script>
     <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
 </head>
@@ -17,59 +17,113 @@
   <section id="header">
     <div class="wrapper">
       <nav>
-
           <a id="hamburger" class="hamburger" href="#" onclick="toggleNav()">
             <div class="line line1"></div>
             <div class="line line2"></div>
             <div class="line line3"></div>
             <a href="/" class="hamburger-logo">
-              <img src="./assets/img/logo1.png" alt="">
+              <img src="./assets/img/logo2.png" alt="">
             </a>
           </a>
           <div class="nav-container">
             <ul class="nav-links" id="nav-responsive">
               <li>
                 <a href="/" class="logo">
-                  <img src="./assets/img/logo1.png" alt="">
+                  <img src="./assets/img/logo2.png" alt="">
                 </a>
               </li>
               <li class="nav-link"> <a id="lang-home" href="/">Home</a>  </li>
-              <li class="nav-link"> <a id="lang-about" href="about.html">About</a>  </li>
+              <li class="nav-link"> <a id="lang-about" href="about.html">About</a> </li>
+              <li class="nav-link">
+                <a id="lang-projects" href="projects.html">Projects</a>
+                <ul class="nav-projects fold">
+                  <li>United kingdom</li>
+                  <li>Jordan</li>
+                  <li>Iraq</li>
+                </ul>
+              </li>
               <li class="nav-link"> <a id="lang-contactus" href="contactus.html" >Contact Us</a></li>
               <li class="nav-social">
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-twitter"></a>
               </li>
-              <li class="nav-lang">
-                <a id="lang-language" class="lang-icon en" href="javascript:void(0);" onclick="toggleLanguage()" ondblclick="toggleLanguage()">العربية</a>
-              </li>
             </ul>
           </div>
       </nav>
       <div class="header-contents">
-        <!-- <h1 id="lang-header">Text content to be here inside this area</h1>
-        <img class="phone" src="./assets/img/iPhone11.png" alt="phone"> -->
+        <h1 id="lang-header"></h1>
+        <p id="lang-header-p">Find the Best Offers</p>
       </div>
     </div>
   </section>
 
-  <section id="features">
-      <div class="wrapper">
-        <div class="cards">
-
-          <div class="feature-card">
-            <h2 id="lang-card3head">test header</h2>
-            <!-- <lottie-player src="/assets/json/booking.gif"  background="transparent"  speed="1" loop  autoplay></lottie-player> -->
-            <img class="animation-img" src="./assets/json/booking.gif" alt="animation">
-          </div>
-          <div class="feature-card">
-            <img class="animation-img" src="./assets/json/calendar-event.gif" alt="card1">
-          </div>
-
-        </div>
+  <section id="offers">
+    <div class="wrapper">
+      <div class="offers-header">
+        <img class="header-img" src="./assets/img/logo3.png" alt="">
+        <h3>The best Realestate offers in United Kingdom, Jordan, and Iraq</h3>
+        <p>Find more about our offers</p>
       </div>
-    </section>
+      <div class="offer-cards">
+        <div class="card" id="card1">
+          <img src="./assets/img/realestate/2.jpg" alt="">
+          <div class="card-details">
+            <h3>Beatiful villa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <a class="btn" href="asset.html">more...</a>
+          </div>
+        </div>
+
+        <div class="card" id="card2">
+          <img src="./assets/img/realestate/3.jpg" alt="">
+          <div class="card-details">
+            <h3>50% Off Today</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <a class="btn" href="asset.html">more...</a>
+          </div>
+        </div>
+
+        <div class="card" id="card3">
+          <img src="./assets/img/realestate/4.jpg" alt="">
+          <div class="card-details">
+            <h3>Bargain!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <a class="btn" href="asset.html">more...</a>
+          </div>
+        </div>
+
+        <div class="card" id="card4">
+          <img src="./assets/img/realestate/2.jpg" alt="">
+          <div class="card-details">
+            <h3>Beatiful villa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <a class="btn" href="asset.html">more...</a>
+          </div>
+        </div>
+
+        <div class="card" id="card5">
+          <img src="./assets/img/realestate/3.jpg" alt="">
+          <div class="card-details">
+            <h3>50% Off Today</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <a class="btn" href="asset.html">more...</a>
+          </div>
+        </div>
+
+        <div class="card" id="card6">
+          <img src="./assets/img/realestate/4.jpg" alt="">
+          <div class="card-details">
+            <h3>Bargain!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <a class="btn" href="asset.html">more...</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
 
 
   <section id="footer">
@@ -83,14 +137,16 @@
               <a id="lang-footerlink2" href="about.html">About Us</a>
             </li>
             <li class="gcell">
-              <a id="lang-footerlink3" href="contactus.html">Home3</a>
+              <a id="lang-footerlink3" href="projects.html">Home3</a>
             </li>
-
+            <li class="gcell">
+              <a id="lang-footerlink4" href="contactus.html">Home3</a>
+            </li>
           </ul>
         </div>
         <div class="footer-logo">
           <a href="partner.html">
-            <img src="./assets/img/footer-logo.png" alt="">
+            <img src="./assets/img/logo2.png" alt="">
           </a>
         </div>
 
@@ -109,10 +165,6 @@
           <a href="#" class="fa fa-twitter"></a>
         </div>
 
-        <div class="term-and-conditions">
-          <a id="lang-terms" href="terms.html">Terms</a>
-          <a id="lang-privacy" href="privacy.html">Privacy</a>
-        </div>
       </div>
 
   </section>
